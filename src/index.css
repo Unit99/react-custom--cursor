@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  cursor: none;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blue;
+}
+
+.title{
+  font-size: 10rem;
+  color: #fff;
+}
+
+.cursor{
+  background-color: #fff;  
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+
